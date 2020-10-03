@@ -1,0 +1,183 @@
+body {
+	margin: 10px !important;
+	background-color: #ebeff3 !important;
+	font-family: Raleway, sans-serif !important;
+}
+
+p {
+	margin: 0px !important;
+}
+
+.mt-10 {
+	margin-top: 10px !important;
+}
+
+ul {
+	text-decoration: none;
+	list-style: none;
+	margin: 20px 0px !important;
+	padding: 0px !important;
+}
+
+li {
+	display: inline;
+	margin: 0px 10px !important;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+/* -------------navbar------------------------ */
+
+nav {
+	background-color: #ebeff3 !important;
+	position: relative;
+}
+
+.nav-link {
+	color: #98aab9;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.nav-link:hover {
+	color: #fc604d;
+}
+
+.logo {
+	width: 60%;
+	cursor: pointer;
+}
+
+.navbar-toggle {
+	border-radius: 5px !important;
+	border-color: transparent !important;
+	font-size: 25px !important;
+	outline: transparent !important;
+	position: relative !important;
+}
+
+.navbar-toggler-icon {
+	color: #fc604d !important;
+}
+
+.navbar-toggler-icon .fa {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+}
+
+/* ------------------------- */
+
+/* -----------profile image------ */
+
+.profile-image {
+	width: 70%;
+}
+
+/* ------------------------------ */
+
+/* --------social icons------------- */
+
+.social-icons .fa {
+	font-size: 20px;
+	color: #98aab9;
+}
+
+.social-icons .fa:hover {
+	cursor: pointer;
+	color: #fc604d;
+}
+
+/* -------------------------------------- */
+
+/* ---------------contact details----------- */
+
+.mt-10 .fa {
+	font-size: 20px;
+	color: #98aab9;
+	margin-right: 10px;
+}
+
+.mt-10 .fa:hover {
+	cursor: pointer;
+	color: #fc604d;
+}
+
+.mt-10 a {
+	color: #333333;
+}
+
+.mt-10 a:hover {
+	cursor: pointer;
+	color: #fc604d;
+	text-decoration: none;
+}
+
+/* --------------------------------------------- */
+
+@media only screen and (min-width: 991px) {
+	.collapse {
+		position: absolute;
+		right: 0;
+	}
+	h2 {
+		font-weight: 900 !important;
+		font-size: 100px !important;
+		line-height: 90px !important;
+		color: #fc604d;
+		text-align: left;
+	}
+	h1 {
+		font-weight: 900 !important;
+		font-size: 40px !important;
+		line-height: 90px !important;
+		color: #313539;
+		text-align: left;
+	}
+	.profile-image {
+		width: 70%;
+	}
+	.profile-image-align {
+		text-align: right;
+	}
+	.landingPage-layout {
+		margin: 98px 0px;
+	}
+	.objective {
+		margin-top: 50px !important;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 25px;
+		color: #333333;
+	}
+}
+
+@media only screen and (max-width: 769px) {
+	h2 {
+		font-weight: 900 !important;
+		font-size: 50px !important;
+		color: #fc604d;
+	}
+	h1 {
+		font-weight: 900 !important;
+		font-size: 25px !important;
+		color: #313539;
+	}
+	.profile-image {
+		width: 70%;
+	}
+	.profile-image-align {
+		text-align: center;
+	}
+	.landingPage-layout {
+		margin: 30px 0px;
+	}
+	.objective {
+		margin: 30px 0px !important;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 25px;
+		color: #333333;
+	}
+}
