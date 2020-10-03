@@ -21,9 +21,20 @@ ul {
 
 li {
 	display: inline;
-	margin: 0px 10px !important;
+	margin-right: 20px !important;
 	cursor: pointer;
 	font-size: 20px;
+}
+
+h3 {
+	font-size: 32px !important;
+	color: #333333 !important;
+	font-weight: 700 !important;
+	line-height: 38px !important;
+}
+
+.img-thumbnail {
+	border: 10px solid #dee2e6 !important;
 }
 
 /* -------------navbar------------------------ */
@@ -69,14 +80,6 @@ nav {
 
 /* ------------------------- */
 
-/* -----------profile image------ */
-
-.profile-image {
-	width: 70%;
-}
-
-/* ------------------------------ */
-
 /* --------social icons------------- */
 
 .social-icons .fa {
@@ -90,6 +93,18 @@ nav {
 }
 
 /* -------------------------------------- */
+
+/* --------------profile image ------------ */
+
+.profile-image {
+	width: 70%;
+	/* transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	position: absolute; */
+}
+
+/* --------------------------------------------- */
 
 /* ---------------contact details----------- */
 
@@ -114,7 +129,36 @@ nav {
 	text-decoration: none;
 }
 
-/* --------------------------------------------- */
+.download-resume:hover {
+	background-color: #ffffff !important;
+	color: #fc604d !important;
+}
+
+/* ------------------------------------------------ */
+
+/* about page layout */
+
+.aboutPage-layout {
+	margin: 100px 0px !important;
+}
+
+.lh-35 p {
+	line-height: 35px !important;
+}
+
+.basic-info-heading {
+	color: #333333 !important;
+	font-weight: 500 !important;
+	font-size: 16px !important;
+}
+
+.basic-info-value {
+	color: #666666 !important;
+	font-weight: 400 !important;
+	font-size: 16px !important;
+}
+
+/* ---------------------- */
 
 @media only screen and (min-width: 991px) {
 	.collapse {
@@ -123,7 +167,7 @@ nav {
 	}
 	h2 {
 		font-weight: 900 !important;
-		font-size: 100px !important;
+		font-size: 98px !important;
 		line-height: 90px !important;
 		color: #fc604d;
 		text-align: left;
@@ -135,14 +179,11 @@ nav {
 		color: #313539;
 		text-align: left;
 	}
-	.profile-image {
-		width: 70%;
-	}
 	.profile-image-align {
 		text-align: right;
 	}
 	.landingPage-layout {
-		margin: 98px 0px;
+		margin: 115px 0px;
 	}
 	.objective {
 		margin-top: 50px !important;
@@ -150,6 +191,23 @@ nav {
 		font-size: 16px;
 		line-height: 25px;
 		color: #333333;
+	}
+	.download-resume {
+		position: absolute;
+		right: 5%;
+		bottom: 5%;
+		border-radius: 25px !important;
+		background-color: #fc604d !important;
+		color: #ffffff !important;
+	}
+	h4 {
+		font-size: 32px !important;
+		color: #292b2c !important;
+		font-weight: 700 !important;
+		margin: 30px 80px 15px 63px !important;
+	}
+	.img-thumbnail {
+		width: 60% !important;
 	}
 }
 
@@ -164,9 +222,6 @@ nav {
 		font-size: 25px !important;
 		color: #313539;
 	}
-	.profile-image {
-		width: 70%;
-	}
 	.profile-image-align {
 		text-align: center;
 	}
@@ -179,5 +234,24 @@ nav {
 		font-size: 16px;
 		line-height: 25px;
 		color: #333333;
+	}
+	.download-resume {
+		border-radius: 25px !important;
+		background-color: #fc604d !important;
+		color: #ffffff !important;
+		margin-bottom: 20px;
+	}
+	.mbs-about-20 {
+		margin-bottom: 20px !important;
+	}
+	.plrs-15 {
+		padding: 0px 15px !important;
+	}
+	h4 {
+		font-size: 25px !important;
+		color: #292b2c !important;
+		font-weight: 700 !important;
+		margin: 0px 0px 15px !important;
+		padding: 0px 15px !important;
 	}
 }
