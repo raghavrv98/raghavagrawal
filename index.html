@@ -23,35 +23,36 @@
 </head>
 
 <body>
+	<nav class="navbar navbar-default navbar-expand-lg sticky-top">
+		<p class="navbar-brand"><img class="logo" src="./images/logo.png" alt="logo"></p>
+		<button class="navbar-toggler navbar-toggle" type="button" data-toggle="collapse"
+			data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i>
+			</span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Testimonial</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 	<div class="container">
-		<nav class="navbar navbar-expand-lg">
-			<p class="navbar-brand"><img class="logo" src="./images/logo.png" alt="logo"></p>
-			<button class="navbar-toggler navbar-toggle" type="button" data-toggle="collapse"
-				data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-				aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i>
-				</span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Portfolio</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Testimonial</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Contact</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
+
 		<div class="row landingPage-layout">
 			<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 				<h1>Creative Front-end</h1>
@@ -75,8 +76,9 @@
 				<img class="profile-image" src="./images/me.png" alt="my image">
 			</div>
 		</div>
+
 		<div class="row aboutPage-layout">
-			<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mbs-about-20 text-center">
+			<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mbs-20 text-center">
 				<img src="./images/about_img.png" alt="about image" class="img-thumbnail">
 			</div>
 			<div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
@@ -86,7 +88,7 @@
 					aliquam accusamus, facilis nisi ipsa debitis expedita nemo.</p><br>
 			</div>
 			<h4>Basic Info</h4>
-			<div class="row plrs-15">
+			<div class="row plrs-15 basic-info-row">
 				<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 lh-35">
 					<p><span class="basic-info-heading">Date of Birth : </span><span class="basic-info-value">07 Oct,
 							1998</span></p>
@@ -99,12 +101,168 @@
 					<p><span class="basic-info-heading">website : </span><span
 							class="basic-info-value">www.raghavagrawal.com</span></p>
 					<p><span class="basic-info-heading">Address : </span><span class="basic-info-value">3325, kharot
-							Gate, Baldev Ganj, kosi kalan (Mathura).</span></p>
+							Gate, Baldev Ganj, kosi kalan (Mathura)</span></p>
 				</div>
 			</div>
 		</div>
-	</div>
+		<div class="container">
+			<div class="row about-section-filler">
+				<div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 text-center mt-40">
+					<p><i class="filler-icon fa fa-check" aria-hidden="true"></i></p>
+					<p class="filler-no">200</p>
+					<p class="filler-heading">Happy Clients</p>
+				</div>
+				<div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 text-center mt-40">
+					<p><i class="filler-icon fa fa-check" aria-hidden="true"></i></p>
+					<p class="filler-no">200</p>
+					<p class="filler-heading">Happy Clients</p>
+				</div>
+				<div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 text-center mt-40">
+					<p><i class="filler-icon fa fa-check" aria-hidden="true"></i></p>
+					<p class="filler-no">200</p>
+					<p class="filler-heading">Happy Clients</p>
+				</div>
+				<div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 text-center mt-40">
+					<p><i class="filler-icon fa fa-check" aria-hidden="true"></i></p>
+					<p class="filler-no">200</p>
+					<p class="filler-heading">Happy Clients</p>
+				</div>
+			</div>
+		</div>
 
+		<div class="experiencePage-layout">
+			<h3 class="mb-20">Work Experience</h3>
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mbs-20">
+					<div class="card">
+						<h5>Software Developer Intern</h5>
+						<p class="time">July, 2019 - July, 2020</p> <span>IOT83</span>
+						<hr>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, ea possimus delectus
+							pariatur.<br><br>
+							modi quibusdam voluptatum perferendis, reiciendis enim doloremque, odio sequi ad laborum
+							officiis magnam velit voluptatibus natus quae?
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet placeat quo et, voluptatum
+							earum perspiciatis atque fugit repellat, nisi ipsa iure, sit aut laudantium nemo. <br><br>
+							Nam consectetur aperiam sit mollitia?
+						</p>
+					</div>
+				</div>
+
+				<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+					<div class="card">
+						<h5>Software Developer</h5>
+						<p class="time">July, 2020 - Present</p><span>IOT83</span>
+						<hr>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, ea possimus delectus
+							pariatur.<br><br>
+							modi quibusdam voluptatum perferendis, reiciendis enim doloremque, odio sequi ad laborum
+							officiis magnam velit voluptatibus natus quae?
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet placeat quo et, voluptatum
+							earum perspiciatis atque fugit repellat, nisi ipsa iure, sit aut laudantium nemo. <br><br>
+							Nam consectetur aperiam sit mollitia?
+						</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="educationPage-layout">
+			<h3 class="mb-20">Education</h3>
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mbs-20">
+					<div class="card">
+						<h5>GLA University</h5>
+						<p class="time">Aug, 2016 - Aug, 2020</p>
+						<hr>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, ea possimus delectus
+							pariatur.<br><br>
+							modi quibusdam voluptatum perferendis, reiciendis enim doloremque, odio sequi ad laborum
+							officiis magnam velit voluptatibus natus quae?
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet placeat quo et, voluptatum
+							earum perspiciatis atque fugit repellat, nisi ipsa iure, sit aut laudantium nemo. <br><br>
+							Nam consectetur aperiam sit mollitia?
+						</p>
+					</div>
+				</div>
+
+				<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+					<div class="card">
+						<h5>Vidya Devi Jindal School</h5>
+						<p class="time">March, 2015</p>
+						<hr>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, ea possimus delectus
+							pariatur.<br><br>
+							modi quibusdam voluptatum perferendis, reiciendis enim doloremque, odio sequi ad laborum
+							officiis magnam velit voluptatibus natus quae?
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet placeat quo et, voluptatum
+							earum perspiciatis atque fugit repellat, nisi ipsa iure, sit aut laudantium nemo. <br><br>
+							Nam consectetur aperiam sit mollitia?
+						</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="skillPage-Layout">
+			<h3 class="mb-20">My Skills</h3>
+			<div class="row mbl-50">
+				<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mbs-20 plrl-52">
+					<div class="radialProgressBar progress-60">
+						<div class="overlay">60</div>
+					</div>
+					<p class="skill-title">HTML</p>
+				</div>
+				<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mbs-20 plrl-52">
+					<div class="radialProgressBar progress-60">
+						<div class="overlay">60</div>
+					</div>
+					<p class="skill-title">CSS</p>
+				</div>
+				<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mbs-20 plrl-52">
+					<div class="radialProgressBar progress-60">
+						<div class="overlay">60</div>
+					</div>
+					<p class="skill-title">Bootstrap</p>
+				</div>
+				<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mbs-20 plrl-52">
+					<div class="radialProgressBar progress-60">
+						<div class="overlay">60</div>
+					</div>
+					<p class="skill-title">JS</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mbs-20 plrl-52">
+					<div class="radialProgressBar progress-60">
+						<div class="overlay">60</div>
+					</div>
+					<p class="skill-title">React.js</p>
+				</div>
+				<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mbs-20 plrl-52">
+					<div class="radialProgressBar progress-60">
+						<div class="overlay">60</div>
+					</div>
+					<p class="skill-title">ES6</p>
+				</div>
+				<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mbs-20 plrl-52">
+					<div class="radialProgressBar progress-60">
+						<div class="overlay">60</div>
+					</div>
+					<p class="skill-title">Node.js</p>
+				</div>
+				<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mbs-20 plrl-52">
+					<div class="radialProgressBar progress-60">
+						<div class="overlay">60</div>
+					</div>
+					<p class="skill-title">SEO</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
 		crossorigin="anonymous"></script>
@@ -114,6 +272,12 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
 		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
 		crossorigin="anonymous"></script>
+
+	<script>
+		$(window).scroll(function () {
+			$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+		});
+	</script>
 </body>
 
 </html>
