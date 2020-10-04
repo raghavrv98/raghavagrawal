@@ -1,3 +1,15 @@
+/* @media (min-width: 576px) and (max-width: 767.98px) {
+  
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  
+}
+
+@media (min-width: 992px){
+
+} */
+
 body {
 	margin: 0px !important;
 	background-color: #ebeff3 !important;
@@ -322,6 +334,13 @@ nav {
 }
 
 /* --------------------- */
+
+
+/* portfolio section */
+
+
+/* ----------------------- */
+
 
 @media only screen and (min-width: 991px) {
 	.collapse {
