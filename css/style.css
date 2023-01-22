@@ -744,7 +744,7 @@ footer div span span {
   /* --------social icons------------- */
 
   .social-icons img {
-    height: 40px;
+    height: 30px;
   }
 
   footer .social-icons img {
@@ -784,7 +784,7 @@ footer div span span {
   .aboutMe {
     margin: 30px 0px !important;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 25px;
     color: #333333;
   }
