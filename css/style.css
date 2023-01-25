@@ -112,6 +112,7 @@ p a img {
 nav {
   background-color: #ebeff3 !important;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .navbar-default {
@@ -323,9 +324,61 @@ nav {
   transform: translate(10%, 0%);
 }
 
-.progress-60 {
+.progress-10 {
   background-image: linear-gradient(308deg, #fc604d 50%, transparent 50%),
-    linear-gradient(272deg, #fc604d 50%, #ddd 50%);
+    linear-gradient(270deg, #fc604d 50%, #ddd 50%);
+  margin: 0px auto !important;
+}
+
+.progress-20 {
+  background-image: linear-gradient(308deg, #fc604d 50%, transparent 50%),
+    linear-gradient(270deg, #fc604d 50%, #ddd 50%);
+  margin: 0px auto !important;
+}
+
+.progress-30 {
+  background-image: linear-gradient(308deg, #fc604d 50%, transparent 50%),
+    linear-gradient(270deg, #fc604d 50%, #ddd 50%);
+  margin: 0px auto !important;
+}
+
+.progress-40 {
+  background-image: linear-gradient(308deg, #fc604d 50%, transparent 50%),
+    linear-gradient(270deg, #fc604d 50%, #ddd 50%);
+  margin: 0px auto !important;
+}
+.progress-50 {
+  background-image: linear-gradient(270deg, #fc604d 50%, transparent 50%),
+    linear-gradient(270deg, #fc604d 50%, #ddd 50%);
+  margin: 0px auto !important;
+}
+.progress-60 {
+  background-image: linear-gradient(306deg, #fc604d 50%, transparent 50%),
+    linear-gradient(270deg, #fc604d 50%, #ddd 50%);
+  margin: 0px auto !important;
+}
+
+.progress-70 {
+  background-image: linear-gradient(308deg, #fc604d 50%, transparent 50%),
+    linear-gradient(270deg, #fc604d 50%, #ddd 50%);
+  margin: 0px auto !important;
+}
+
+.progress-80 {
+  background-image: linear-gradient(18deg, #fc604d 50%, transparent 50%),
+    linear-gradient(270deg, #fc604d 50%, #ddd 50%);
+  margin: 0px auto !important;
+}
+
+.progress-90 {
+  background-image: linear-gradient(54deg, #fc604d 50%, transparent 50%),
+    linear-gradient(270deg, #fc604d 50%, #ddd 50%);
+  margin: 0px auto !important;
+}
+
+.progress-100 {
+  background-image: linear-gradient(308deg, #fc604d 50%, transparent 50%),
+    linear-gradient(270deg, #fc604d 50%, #ddd 50%);
   margin: 0px auto !important;
 }
 
