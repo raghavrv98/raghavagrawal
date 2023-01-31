@@ -19,7 +19,7 @@ body {
 }
 
 .containerHoobies {
-  padding: 50px;
+  padding: 20px;
 }
 
 iframe {
@@ -30,6 +30,7 @@ iframe {
 
 nav + div {
   margin-left: 25px;
+  margin-bottom: 25px;
 }
 
 @media only screen and (max-width: 769px) {
@@ -41,7 +42,7 @@ nav + div {
   }
 
   .containerHoobies {
-    padding: 50px;
+    padding: 20px;
   }
 
   .containerHoobies div {
