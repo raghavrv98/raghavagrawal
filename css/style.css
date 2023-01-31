@@ -690,8 +690,8 @@ footer div span span {
 
   .download-resume {
     position: absolute;
-    right: 5%;
-    bottom: 5%;
+    right: 4%;
+    bottom: 22%;
     border-radius: 25px !important;
     background-color: #fc604d !important;
     color: #ffffff !important;
@@ -851,7 +851,6 @@ footer div span span {
   }
 
   .connected-lines {
-    margin: 30px 0px !important;
     font-weight: 500;
     font-size: 12px;
     line-height: 25px;
@@ -861,7 +860,6 @@ footer div span span {
     border-radius: 25px !important;
     background-color: #fc604d !important;
     color: #ffffff !important;
-    margin-bottom: 20px;
   }
   .mbs-20 {
     margin-bottom: 20px !important;
